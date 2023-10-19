@@ -30,21 +30,21 @@ public class GoalChecker : MonoBehaviour
             StartCoroutine(ChangeAlpha());
             Debug.Log("Performed " + name);
         }
-        
+
         if (_pressedThisFrame)
         {
             Debug.Log("Pressed " + name);
         }
-        
+
         if (_releasedThisFrame)
         {
             Debug.Log("Released " + name);
         }
-        
+
 
         if (_currentTile)
         {
-            _noteEvaluators[NoteType.SINGLE].Evaluate(buildInputData());
+            _noteEvaluators[_currentTile.GetComponent<TileObject>().Type].Evaluate(buildInputData());
         }
 
         ResetFlags();
@@ -66,7 +66,11 @@ public class GoalChecker : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if other game object is of type TileObject ? 
+        if (!other.GetComponent<TileObject>())
+        {
+            return;
+        }
+
         _currentTile = other.gameObject;
     }
 

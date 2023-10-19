@@ -3,13 +3,6 @@ using UnityEngine;
 
 class SingleNoteEvaluator : NoteEvaluator
 {
-    private ScoreManager _scoreManager;
-
-    private void Start()
-    {
-        _scoreManager = FindObjectOfType<ScoreManager>();
-    }
-
     public override void Evaluate(GoalChecker.InputData inputData)
     {
         if (inputData.performedThisFrame)
