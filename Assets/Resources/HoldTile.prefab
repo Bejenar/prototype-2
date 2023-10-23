@@ -523,6 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 111
 --- !u!114 &7409006566724155198
 MonoBehaviour:
   m_ObjectHideFlags: 0

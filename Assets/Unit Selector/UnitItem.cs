@@ -20,6 +20,7 @@ namespace Unit_Selector
         public void OnClick()
         {
             Debug.Log("Clicked button " + name);
+            PersistentConfig.Instance.selectedUnitItem.SelectUnit(unit);
         }
 
         private void SetThumbnail(Transform transform)

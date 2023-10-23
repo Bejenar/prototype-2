@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -79,6 +80,11 @@ public class GoalChecker : MonoBehaviour
         if (_currentTile == other.gameObject)
         {
             _currentTile = null;
+            if (other.gameObject.activeSelf)
+            {
+                EventBus.Trigger("combo-event", 0.0f);
+                Destroy(other.gameObject);
+            }
         }
     }
 

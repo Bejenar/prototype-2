@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Homura
   sprite: {fileID: 21300000, guid: 8bf2eb68c880c2041b8aac97de2a91a9, type: 3}
-  unitPrefab: {fileID: 0}
+  unitPrefab: {fileID: 2967026923747147949, guid: 3c34112dc65f75340874828785ef5058, type: 3}

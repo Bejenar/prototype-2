@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1543006512664838122}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 2467428525090343115}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,9 +329,9 @@ GameObject:
   - component: {fileID: 5031193861537934015}
   - component: {fileID: 4419807072863963356}
   - component: {fileID: 5725487875078259296}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -416,6 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &4419807072863963356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -501,9 +502,9 @@ GameObject:
   - component: {fileID: 8384938716905171391}
   - component: {fileID: 857550251486818304}
   - component: {fileID: 1901326301277297744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -588,6 +589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &857550251486818304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -673,9 +675,9 @@ GameObject:
   - component: {fileID: 1652975241021426295}
   - component: {fileID: 1833280598058621375}
   - component: {fileID: 3955735380189832775}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -760,6 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &1833280598058621375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -846,7 +849,7 @@ GameObject:
   - component: {fileID: 8093479598610981320}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1003,9 +1006,9 @@ GameObject:
   - component: {fileID: 3835812567590548776}
   - component: {fileID: 1305818140794679422}
   - component: {fileID: 6798385410373244564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (1)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1113,6 +1116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &6798385410373244564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1138,9 +1142,9 @@ GameObject:
   - component: {fileID: 4988850879896226463}
   - component: {fileID: 2532882176853438095}
   - component: {fileID: 1427239395170433727}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,6 +1229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &2532882176853438095
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1311,7 +1316,7 @@ GameObject:
   - component: {fileID: 3947976016839775266}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1469,7 +1474,7 @@ GameObject:
   - component: {fileID: 5342804541471766037}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1627,7 +1632,7 @@ GameObject:
   - component: {fileID: 5900034583692976877}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1783,7 +1788,7 @@ GameObject:
   - component: {fileID: 348650310299611159}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1869,7 +1874,7 @@ GameObject:
   - component: {fileID: 7490268473399876578}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2026,9 +2031,9 @@ GameObject:
   - component: {fileID: 8755939092973164922}
   - component: {fileID: 5825637596289436311}
   - component: {fileID: 6908424892731634078}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2113,6 +2118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &5825637596289436311
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2198,9 +2204,9 @@ GameObject:
   - component: {fileID: 99682936770951429}
   - component: {fileID: 3229676039089566779}
   - component: {fileID: 7628135578216003211}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2285,6 +2291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &3229676039089566779
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2370,9 +2377,9 @@ GameObject:
   - component: {fileID: 1199252514540785305}
   - component: {fileID: 6458216016986894373}
   - component: {fileID: 2550007044168774998}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2457,6 +2464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &6458216016986894373
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2542,9 +2550,9 @@ GameObject:
   - component: {fileID: 3232419715732216179}
   - component: {fileID: 2550442187941443486}
   - component: {fileID: 5379060496700022947}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2629,6 +2637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &2550442187941443486
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2715,7 +2724,7 @@ GameObject:
   - component: {fileID: 4751618132110721890}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2873,7 +2882,7 @@ GameObject:
   - component: {fileID: 1780774861846275148}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3030,9 +3039,9 @@ GameObject:
   - component: {fileID: 834451629869422886}
   - component: {fileID: 1540636397975782730}
   - component: {fileID: 203646670795494148}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3117,6 +3126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &1540636397975782730
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3202,9 +3212,9 @@ GameObject:
   - component: {fileID: 543323110394328335}
   - component: {fileID: 1383027394022082200}
   - component: {fileID: 154811935137523172}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3289,6 +3299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &1383027394022082200
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3374,9 +3385,9 @@ GameObject:
   - component: {fileID: 3501412299657408668}
   - component: {fileID: 6853258205723068649}
   - component: {fileID: 2748320271647817073}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3461,6 +3472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &6853258205723068649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3545,7 +3557,7 @@ GameObject:
   - component: {fileID: 1747354693117591815}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3630,9 +3642,9 @@ GameObject:
   - component: {fileID: 7078138776470399873}
   - component: {fileID: 9187544423137173993}
   - component: {fileID: 1546884326305247637}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (4)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3740,6 +3752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &1546884326305247637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3765,9 +3778,9 @@ GameObject:
   - component: {fileID: 4496169001116363010}
   - component: {fileID: 6131661153680272524}
   - component: {fileID: 438130517019952475}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3852,6 +3865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &6131661153680272524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3937,9 +3951,9 @@ GameObject:
   - component: {fileID: 8516718895264188846}
   - component: {fileID: 2987384837945679765}
   - component: {fileID: 6078321012864574173}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4024,6 +4038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &2987384837945679765
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4109,9 +4124,9 @@ GameObject:
   - component: {fileID: 1636227747145000231}
   - component: {fileID: 9151311336880918649}
   - component: {fileID: 7575802532531648093}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4196,6 +4211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &9151311336880918649
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4282,7 +4298,7 @@ GameObject:
   - component: {fileID: 8511892654274468328}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4440,7 +4456,7 @@ GameObject:
   - component: {fileID: 4059934231315990028}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4597,9 +4613,9 @@ GameObject:
   - component: {fileID: 5202627908449122790}
   - component: {fileID: 5376469476197437621}
   - component: {fileID: 7570113560481471842}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4684,6 +4700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &5376469476197437621
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4769,9 +4786,9 @@ GameObject:
   - component: {fileID: 5230490602516991824}
   - component: {fileID: 2412840216945600588}
   - component: {fileID: 5028222171020813131}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4856,6 +4873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &2412840216945600588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4941,9 +4959,9 @@ GameObject:
   - component: {fileID: 2667890650384377848}
   - component: {fileID: 3340300963082221902}
   - component: {fileID: 3205211920618574290}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5028,6 +5046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &3340300963082221902
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5113,9 +5132,9 @@ GameObject:
   - component: {fileID: 7513875680919416829}
   - component: {fileID: 4977136311983801148}
   - component: {fileID: 5752549398043159858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5200,6 +5219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &4977136311983801148
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5285,9 +5305,9 @@ GameObject:
   - component: {fileID: 1498676905961301521}
   - component: {fileID: 7932661010010667936}
   - component: {fileID: 3425312708835662604}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (2)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5395,6 +5415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &3425312708835662604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5421,7 +5442,7 @@ GameObject:
   - component: {fileID: 373382384226672982}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5578,9 +5599,9 @@ GameObject:
   - component: {fileID: 5655259890767488382}
   - component: {fileID: 2486884256277673818}
   - component: {fileID: 486298500161283668}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5665,6 +5686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &2486884256277673818
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5751,7 +5773,7 @@ GameObject:
   - component: {fileID: 6395400736273123739}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5908,9 +5930,9 @@ GameObject:
   - component: {fileID: 2858587204724934598}
   - component: {fileID: 4882482178374063330}
   - component: {fileID: 4798579771350560771}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5995,6 +6017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &4882482178374063330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6080,9 +6103,9 @@ GameObject:
   - component: {fileID: 8888914625000304705}
   - component: {fileID: 7252435385903558817}
   - component: {fileID: 5771819237024929214}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6167,6 +6190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &7252435385903558817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6251,7 +6275,7 @@ GameObject:
   - component: {fileID: 3595213641529304268}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6337,7 +6361,7 @@ GameObject:
   - component: {fileID: 2931503378495378026}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6494,9 +6518,9 @@ GameObject:
   - component: {fileID: 1107662120473066611}
   - component: {fileID: 8157547033190630188}
   - component: {fileID: 2977413268654232746}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone) (1)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6581,6 +6605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &8157547033190630188
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6665,7 +6690,7 @@ GameObject:
   - component: {fileID: 5261700669576202399}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6750,9 +6775,9 @@ GameObject:
   - component: {fileID: 2962846275924930078}
   - component: {fileID: 3483343203759040070}
   - component: {fileID: 7689286331610230459}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6837,6 +6862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &3483343203759040070
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6922,9 +6948,9 @@ GameObject:
   - component: {fileID: 4536032358731059377}
   - component: {fileID: 6999705074335278791}
   - component: {fileID: 9178288469322400249}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7009,6 +7035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &6999705074335278791
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7094,9 +7121,9 @@ GameObject:
   - component: {fileID: 6449081030261787870}
   - component: {fileID: 375800816803434023}
   - component: {fileID: 3165429510469051585}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (9)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7204,6 +7231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &3165429510469051585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7229,9 +7257,9 @@ GameObject:
   - component: {fileID: 1136616640264226848}
   - component: {fileID: 5722549670557310709}
   - component: {fileID: 2087383464474265029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (3)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7339,6 +7367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &2087383464474265029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7364,9 +7393,9 @@ GameObject:
   - component: {fileID: 4218433137951584120}
   - component: {fileID: 7356656287005639272}
   - component: {fileID: 2048645932635095173}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7451,6 +7480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &7356656287005639272
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7537,7 +7567,7 @@ GameObject:
   - component: {fileID: 4614577954236558428}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7694,9 +7724,9 @@ GameObject:
   - component: {fileID: 3882216372904401178}
   - component: {fileID: 9076998996918891912}
   - component: {fileID: 6017398074722103305}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7781,6 +7811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &9076998996918891912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7867,7 +7898,7 @@ GameObject:
   - component: {fileID: 7948880273151721629}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8024,9 +8055,9 @@ GameObject:
   - component: {fileID: 588169712353242262}
   - component: {fileID: 5830642029634926760}
   - component: {fileID: 7565682844940399651}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8111,6 +8142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &5830642029634926760
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8196,9 +8228,9 @@ GameObject:
   - component: {fileID: 7188318548077296924}
   - component: {fileID: 1043252699507007332}
   - component: {fileID: 8568548529773301217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (6)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8306,6 +8338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &8568548529773301217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8330,7 +8363,7 @@ GameObject:
   - component: {fileID: 7374249124804205523}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8415,9 +8448,9 @@ GameObject:
   - component: {fileID: 3449901980879871174}
   - component: {fileID: 5858378500936058508}
   - component: {fileID: 1099913565196907597}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8502,6 +8535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &5858378500936058508
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8673,7 +8707,7 @@ GameObject:
   - component: {fileID: 959396750557069003}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8758,9 +8792,9 @@ GameObject:
   - component: {fileID: 5957367350058725390}
   - component: {fileID: 8304222389325065337}
   - component: {fileID: 5158957499924600510}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8845,6 +8879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &8304222389325065337
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8930,9 +8965,9 @@ GameObject:
   - component: {fileID: 8624965252519066824}
   - component: {fileID: 5879661178056387484}
   - component: {fileID: 7647351350604685881}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9017,6 +9052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &5879661178056387484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9102,9 +9138,9 @@ GameObject:
   - component: {fileID: 1564250735859550828}
   - component: {fileID: 218336505449298599}
   - component: {fileID: 2840222300751830921}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9212,6 +9248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &2840222300751830921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9237,9 +9274,9 @@ GameObject:
   - component: {fileID: 112068766800823989}
   - component: {fileID: 7005405678243880952}
   - component: {fileID: 8028229635084014311}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9324,6 +9361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &7005405678243880952
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9409,9 +9447,9 @@ GameObject:
   - component: {fileID: 232193019528977115}
   - component: {fileID: 2320194436779210841}
   - component: {fileID: 6530760076462013821}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9496,6 +9534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &2320194436779210841
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9581,9 +9620,9 @@ GameObject:
   - component: {fileID: 7334113748203664978}
   - component: {fileID: 4912206774499918433}
   - component: {fileID: 3761848273284037536}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9668,6 +9707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &4912206774499918433
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9754,7 +9794,7 @@ GameObject:
   - component: {fileID: 913636620506171858}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9910,7 +9950,7 @@ GameObject:
   - component: {fileID: 2690953014650507187}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9995,9 +10035,9 @@ GameObject:
   - component: {fileID: 7568667446198106967}
   - component: {fileID: 3323406591164425962}
   - component: {fileID: 2112620387525861426}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10082,6 +10122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &3323406591164425962
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10168,7 +10209,7 @@ GameObject:
   - component: {fileID: 6010446055407982888}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10325,9 +10366,9 @@ GameObject:
   - component: {fileID: 1665227421677227229}
   - component: {fileID: 5337504312775751403}
   - component: {fileID: 5902690377044117019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10412,6 +10453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &5337504312775751403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10497,9 +10539,9 @@ GameObject:
   - component: {fileID: 5144960408400285406}
   - component: {fileID: 1139702883803360471}
   - component: {fileID: 8147805522458423862}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10584,6 +10626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &1139702883803360471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10668,7 +10711,7 @@ GameObject:
   - component: {fileID: 5976863301420122805}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10752,7 +10795,7 @@ GameObject:
   - component: {fileID: 7348733029653348346}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10837,9 +10880,9 @@ GameObject:
   - component: {fileID: 7558538395002122919}
   - component: {fileID: 1987590898481275609}
   - component: {fileID: 8427782142879215239}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10924,6 +10967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &1987590898481275609
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11008,7 +11052,7 @@ GameObject:
   - component: {fileID: 5645250893482812278}
   m_Layer: 0
   m_Name: Path
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11094,7 +11138,7 @@ GameObject:
   - component: {fileID: 5289507015904613458}
   m_Layer: 0
   m_Name: End
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11252,7 +11296,7 @@ GameObject:
   - component: {fileID: 3517969353709045126}
   m_Layer: 0
   m_Name: Start
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11409,9 +11453,9 @@ GameObject:
   - component: {fileID: 3180275504096268478}
   - component: {fileID: 6293815353675043123}
   - component: {fileID: 7887192069714927446}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (5)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11519,6 +11563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &7887192069714927446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11544,9 +11589,9 @@ GameObject:
   - component: {fileID: 6271054627419140554}
   - component: {fileID: 7286837732104180146}
   - component: {fileID: 3460558997927033529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11631,6 +11676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &7286837732104180146
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11716,9 +11762,9 @@ GameObject:
   - component: {fileID: 3519587736454926940}
   - component: {fileID: 1099141245894925197}
   - component: {fileID: 5735124378054397920}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11803,6 +11849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &1099141245894925197
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11888,9 +11935,9 @@ GameObject:
   - component: {fileID: 7977710676176675708}
   - component: {fileID: 4490119381508050754}
   - component: {fileID: 8584702380030583055}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11975,6 +12022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &4490119381508050754
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12060,9 +12108,9 @@ GameObject:
   - component: {fileID: 5485059484382718452}
   - component: {fileID: 752879286724802968}
   - component: {fileID: 5844395670798986875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12147,6 +12195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &752879286724802968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12232,9 +12281,9 @@ GameObject:
   - component: {fileID: 9172315438439819165}
   - component: {fileID: 3683892163135718022}
   - component: {fileID: 6165324367378317691}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12319,6 +12368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &3683892163135718022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12404,9 +12454,9 @@ GameObject:
   - component: {fileID: 2492934258291312640}
   - component: {fileID: 4152592393295232709}
   - component: {fileID: 2618099393997818885}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12491,6 +12541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &4152592393295232709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12576,9 +12627,9 @@ GameObject:
   - component: {fileID: 4354976271389524869}
   - component: {fileID: 1956432809260750544}
   - component: {fileID: 9014689051920977507}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12663,6 +12714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &1956432809260750544
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12748,9 +12800,9 @@ GameObject:
   - component: {fileID: 6376105359783343674}
   - component: {fileID: 5755019953793432881}
   - component: {fileID: 3365307902619972159}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (7)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12858,6 +12910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &3365307902619972159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12883,9 +12936,9 @@ GameObject:
   - component: {fileID: 5346609994376325857}
   - component: {fileID: 8737178024448157139}
   - component: {fileID: 8876684196399280411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HoldTile (8)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12993,6 +13046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
+  scoreMultiplier: 100
 --- !u!114 &8876684196399280411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13018,9 +13072,9 @@ GameObject:
   - component: {fileID: 7580542032709489484}
   - component: {fileID: 8929961543558679998}
   - component: {fileID: 1081401738171941113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13105,6 +13159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &8929961543558679998
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13190,9 +13245,9 @@ GameObject:
   - component: {fileID: 7997055417265584218}
   - component: {fileID: 8707039526958060136}
   - component: {fileID: 6210084194495163547}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile(Clone)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13277,6 +13332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  scoreMultiplier: 100
 --- !u!61 &8707039526958060136
 BoxCollider2D:
   m_ObjectHideFlags: 0

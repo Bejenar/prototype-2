@@ -5,6 +5,8 @@ public class TileObject : MonoBehaviour
     // [SerializeField] private float speed;
     [SerializeField] private NoteType type;
 
+    [SerializeField] public int scoreMultiplier;
+    
     public NoteType Type => type;
 
     // Start is called before the first frame update

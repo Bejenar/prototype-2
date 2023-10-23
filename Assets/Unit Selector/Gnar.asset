@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Gnar
   sprite: {fileID: 21300000, guid: 39cabc77756eed04eabb017951280e30, type: 3}
-  unitPrefab: {fileID: 0}
+  unitPrefab: {fileID: 2967026923747147949, guid: a3aa7a4d103b45b44ab77ae2e08bade1, type: 3}

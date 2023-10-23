@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TrackObject : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] public float speed;
 
     void Start()
     {

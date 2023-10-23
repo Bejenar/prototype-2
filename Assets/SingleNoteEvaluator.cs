@@ -1,15 +1,21 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 class SingleNoteEvaluator : NoteEvaluator
 {
+    
+    
     public override void Evaluate(GoalChecker.InputData inputData)
     {
         if (inputData.performedThisFrame)
         {
             var tile = inputData.currentTile;
-            var score = (int) (CalculateAccuracy(tile.transform.position) * 100);
+            var accuracy = CalculateAccuracy(tile.transform.position);
+            var score = (int) (accuracy * scoreMultiplier);
+            EventBus.Trigger("combo-event", accuracy);
             _scoreManager.AddScore(score);
+            inputData.currentTile.SetActive(false);
             Destroy(inputData.currentTile);
         }
     }

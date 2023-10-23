@@ -1,10 +1,9 @@
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 class HoldNoteEvaluator : NoteEvaluator
 {
-    [SerializeField] private int scoreMultiplier;
-
     private GameObject _startTile;
     private GameObject _endTile;
 
@@ -35,6 +34,7 @@ class HoldNoteEvaluator : NoteEvaluator
         {
             Debug.Log("Evaluating Hold End With input data " + inputData + " _started and passed end tile: " + _started + _passedEndTile);
             EvaluateHoldEnd();
+            inputData.currentTile.SetActive(false);
             Destroy(inputData.currentTile);
         }
     }
@@ -44,6 +44,7 @@ class HoldNoteEvaluator : NoteEvaluator
         _endTileAccuracy = _endTile ? CalculateAccuracy(_endTile.transform.position) : 0f;
 
         var meanAccuracy = new[] { _startTileAccuracy, _endTileAccuracy }.Average();
+        EventBus.Trigger("combo-event", meanAccuracy);
         _scoreManager.AddScore(CalculateScore(meanAccuracy));
 
         _startTile = null;
@@ -67,6 +68,7 @@ class HoldNoteEvaluator : NoteEvaluator
         switch (col.name)
         {
             case "Start":
+                _passedEndTile = false;
                 _startTile = col.gameObject;
                 break;
             case "End":
@@ -83,7 +85,7 @@ class HoldNoteEvaluator : NoteEvaluator
                 _startTile = col.gameObject == _startTile ? null : _startTile;
                 break;
             case "End":
-                if (col.gameObject == _endTile)
+                if (col.gameObject == _endTile || _started)
                 {
                     _endTile = null;
                     _passedEndTile = true;
