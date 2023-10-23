@@ -60,7 +60,7 @@ public class GoalChecker : MonoBehaviour
     public void OnPressed(InputAction.CallbackContext ctx)
     {
         _performedThisFrame = ctx.action.WasPerformedThisFrame();
-        _pressedThisFrame = ctx.action.WasPerformedThisFrame();
+        _pressedThisFrame = ctx.action.WasPressedThisFrame();
         _releasedThisFrame = ctx.action.WasReleasedThisFrame();
     }
 

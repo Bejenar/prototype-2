@@ -28,12 +28,12 @@ class HoldNoteEvaluator : NoteEvaluator
         {
             Debug.Log("Started Holding");
             _started = true;
-            _startTileAccuracy = CalculateAccuracy(_startTile.transform.position);
+            _startTileAccuracy = CalculateAccuracy(_startTile?.transform?.position);
         }
 
         if ((_started && !inputData.pressedThisFrame) || _passedEndTile)
         {
-            Debug.Log("Evaluating Hold End");
+            Debug.Log("Evaluating Hold End With input data " + inputData + " _started and passed end tile: " + _started + _passedEndTile);
             EvaluateHoldEnd();
             Destroy(inputData.currentTile);
         }
@@ -46,6 +46,8 @@ class HoldNoteEvaluator : NoteEvaluator
         var meanAccuracy = new[] { _startTileAccuracy, _endTileAccuracy }.Average();
         _scoreManager.AddScore(CalculateScore(meanAccuracy));
 
+        _startTile = null;
+        _endTile = null;
         _started = false;
         _passedEndTile = false;
     }
@@ -55,9 +57,9 @@ class HoldNoteEvaluator : NoteEvaluator
         return (int)(scoreMultiplier * accuracy);
     }
 
-    private float CalculateAccuracy(Vector2 tilePos)
+    private float CalculateAccuracy(Vector2? tilePos)
     {
-        return 1.0f;
+        return tilePos == null ? 0.0f : 1.0f;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -69,7 +71,6 @@ class HoldNoteEvaluator : NoteEvaluator
                 break;
             case "End":
                 _endTile = col.gameObject;
-                _passedEndTile = true;
                 break;
         }
     }
@@ -82,7 +83,11 @@ class HoldNoteEvaluator : NoteEvaluator
                 _startTile = col.gameObject == _startTile ? null : _startTile;
                 break;
             case "End":
-                _endTile = col.gameObject == _endTile ? null : _endTile;
+                if (col.gameObject == _endTile)
+                {
+                    _endTile = null;
+                    _passedEndTile = true;
+                }
                 break;
         }
     }

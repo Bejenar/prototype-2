@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec5f4d848584226bc5408017f6d66ea, type: 3}
+  m_Name: Two Of Us
+  m_EditorClassIdentifier: 
+  songName: 'Two of Us '
+  songImage: {fileID: 21300000, guid: bee457a2d131e8740bdb719d71277206, type: 3}
+  audioClip: {fileID: 8300000, guid: 24bed93fcf588424c809e667331d77f8, type: 3}
+  tilemapPrefab: {fileID: 5619377001884916784, guid: 222031f333c6ce9429965d5d5b2e0af1, type: 3}
+  ultimateTimings:
+  - 0.1
+  - 0.3
+  - 0.5
+  - 0.7
+  - 0.9

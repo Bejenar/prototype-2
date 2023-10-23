@@ -34,6 +34,7 @@ public class HoldTileEditor : Editor
         {
             
             var newTile = Instantiate(currentTile.gameObject, currentTile.transform.parent, false);
+            newTile.name = "Hold Tile";
             newTile.GetComponent<HoldTile>().Initialize(length);
         }
     }
