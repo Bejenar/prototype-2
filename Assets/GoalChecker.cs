@@ -15,6 +15,8 @@ public class GoalChecker : MonoBehaviour
     private bool _releasedThisFrame;
     private GameObject _currentTile;
 
+    [SerializeField] private AudioClip click;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,7 @@ public class GoalChecker : MonoBehaviour
         {
             StartCoroutine(ChangeAlpha());
             Debug.Log("Performed " + name);
+            AudioSource.PlayClipAtPoint(click, transform.position, 0.5f);
         }
 
         if (_pressedThisFrame)

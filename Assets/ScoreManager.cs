@@ -15,6 +15,7 @@ public class ScoreManager : MonoBehaviour
         {
             _score = value;
             scoreLabel.text = _score.ToString();
+            PersistentConfig.Instance.score = _score;
         }
     }
 

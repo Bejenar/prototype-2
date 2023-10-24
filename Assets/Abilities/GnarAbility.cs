@@ -26,7 +26,7 @@ public class GnarAbility : MonoBehaviour
 
     public IEnumerator Activate()
     {
-        AudioSource.PlayClipAtPoint(gnarLine, Camera.main.transform.position, 2.0f);
+        AudioSource.PlayClipAtPoint(gnarLine, Camera.main.transform.position, 1.0f);
         animator.SetTrigger(Appear);
 
         var colliders = Physics2D.OverlapCircleAll(shockwaveCenter.transform.position, radius, layerMask);
@@ -35,12 +35,12 @@ public class GnarAbility : MonoBehaviour
         {
             Debug.Log("Destroying " + collider.name);
             Instantiate(particle, collider.transform.position, Quaternion.identity);
-            EventBus.Trigger("combo-event", 1);
+            EventBus.Trigger("combo-event", 1f);
             _scoreManager.AddScore(collider.GetComponent<TileObject>().scoreMultiplier);
             Destroy(collider.gameObject);
         }
-        EventBus.Register("event", (SongSO so) => Debug.Log(so.songName));
-        yield return new WaitForSeconds(5);
+        // EventBus.Register("event", (SongSO so) => Debug.Log(so.songName));
+        yield return new WaitForSeconds(0.1f);
 
     }
 }

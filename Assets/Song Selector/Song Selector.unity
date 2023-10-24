@@ -690,6 +690,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  combo: 0
+  score: 0
 --- !u!4 &335052237
 Transform:
   m_ObjectHideFlags: 0
